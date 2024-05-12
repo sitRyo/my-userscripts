@@ -26,7 +26,6 @@ const youtubeObserver = new MutationObserver(() => {
         const secondaryElm = document.getElementById('secondary-inner');
         console.log(!secondaryElm);
         if (secondaryElm) {
-            console.log('yes');
             secondaryElm.style.display = 'none';
         }
         // Hide all comments
