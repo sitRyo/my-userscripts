@@ -24,7 +24,6 @@ const youtubeObserver = new MutationObserver(() => {
     if (path == '/watch') {
         // Hide related videos
         const secondaryElm = document.getElementById('secondary-inner');
-        console.log(!secondaryElm);
         if (secondaryElm) {
             secondaryElm.style.display = 'none';
         }
